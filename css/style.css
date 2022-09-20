@@ -1,0 +1,37 @@
+@import url('http://fonts.cdnfonts.com/css/iranian-sans');
+                
+.result {
+    display: inline-block;
+  }
+  body {
+    background-color: #f7f7f7 ;
+    direction: rtl;
+    font-family: "Iranian Sans";
+}
+.container {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+   margin: 40px auto 0;
+   padding: 50px;
+   box-sizing: border-box;
+   background: url("https://github.com/jwt349/Repository/blob/master/paper-pattern.jpg?raw=true") top left repeat;
+   box-shadow: 0 10px 15px -8px #000;
+   border-radius: 5px;
+   text-align: center;
+}
+.container h1, .container p {
+    color: #8a8a8a;
+}
+.btn-success:hover {
+    background-color: #e06262;
+    border-color: #e06262;
+}
+.results {
+    text-align: center;
+    background-color: rgba(218, 207, 207, 0.17);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+}
